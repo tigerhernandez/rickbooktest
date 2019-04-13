@@ -22,8 +22,9 @@
 </head>
 
 <body>
-
+<div class="jumbotron big-banner3" style="height:1000px; padding-top:150px;"> 
 <div class="container">
+ 
 
     <form:form method="POST" modelAttribute="userForm" class="form-signin">
         <h2 class="form-signin-heading">Create your account</h2>
@@ -53,6 +54,7 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
     </form:form>
 
+</div>
 </div>
 <!-- /container -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

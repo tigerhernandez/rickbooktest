@@ -24,6 +24,7 @@
     <![endif]-->
 </head>
 <body>
+<div class="jumbotron big-banner2" style="height:1000px; padding-top:150px;"> 
 <div class="container">
 
     <c:if test="${pageContext.request.userPrincipal.name != null}">
@@ -36,6 +37,7 @@
     </c:if>
 
 </div>
+    </div>
 <!-- /container -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="${contextPath}/resources/js/bootstrap.min.js"></script>

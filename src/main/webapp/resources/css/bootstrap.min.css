@@ -12,8 +12,17 @@ html {
 body {
     margin: 0
 }
-.big-banner {
+.big-banner  {
     background-image: url("../../resources/images/logIn.png");
+    background-size:100% 100%;
+}
+.big-banner2  {
+    background-image: url("../../resources/images/welcome.jpg");
+    background-size:100% 100%;
+}
+
+.big-banner3  {
+    background-image: url("../../resources/images/reg.png");
     background-size:100% 100%;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
